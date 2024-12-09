@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Skills List</h1>
+
+<!-- Display a message if there are no skills -->
+{% if skills %}
+    <ul>
+        <!-- Loop through each skill in the list and display them -->
+        {% for skill in skills %}
+            <li>{{ skill.title }}: {{ skill.description }}</li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No skills available at the moment.</p>
+{% endif %}
+
+<!-- Option to add a new skill -->
+<a href="{% url 'add_skill' %}">Add a New Skill</a>
+
+{% endblock %}

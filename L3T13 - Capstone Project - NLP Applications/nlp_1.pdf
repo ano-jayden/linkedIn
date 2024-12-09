@@ -1,0 +1,8 @@
+Text Classification :
+This is comparable to the way text classification techniques are used to separate spam from non-spam emails. Emails are sorted into categories by it.
+
+Sentiment Analysis :
+This model makes use of automatic summarization to identify important elements for grading and sentiment analysis to determine the tone or content quality.
+
+Question Answering :
+Similar to how question-answering systems operate by evaluating inputs and returning pertinent replies, this model analyzes patient responses and makes recommendations for likely diagnosis.
