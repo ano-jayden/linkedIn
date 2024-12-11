@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results for {{ poll.question }}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}"> 
+     
+</head>
+<body>
+    <div class="container">
+        <h2>Results for {{ poll.question }}</h2>
+        <ul>
+            {% for choice in poll.choice_set.all %}
+            <li>{{ choice.choice_text }}: {{ choice.votes }} votes</li>
+            {% empty %}
+            <li>No choices available for this poll.</li>
+            {% endfor %}
+        </ul>
+        <a href="{% url 'polls:index' %}">Back to Polls</a>
+    </div>
+</body>
+</html>
+

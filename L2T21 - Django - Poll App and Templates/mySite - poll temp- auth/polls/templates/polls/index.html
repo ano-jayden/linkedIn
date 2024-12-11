@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polls</title>
+    {% load static %} 
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}"> 
+
+    
+</head>
+<body>
+    <div class="container">
+        <h2>Available Polls</h2>
+        <ul>
+            {% for poll in polls %}
+            <li><a href="{% url 'polls:detail' poll.id %}">{{ poll.question }}</a></li>
+            {% empty %}
+            <li>No polls available.</li>
+            {% endfor %}
+        </ul>
+        <p><a href="{% url 'polls:login' %}">Login to vote</a></p>
+    </div>
+</body>
+</html>
