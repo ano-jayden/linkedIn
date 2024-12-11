@@ -1,0 +1,10 @@
+
+FROM python:3.9-slim
+
+
+WORKDIR /app
+
+COPY email_program.py .
+
+
+CMD ["python", "email_program.py"]
