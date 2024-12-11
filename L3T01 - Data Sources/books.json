@@ -1,0 +1,38 @@
+{
+  'books' : [{
+    "title": "The Wheel of Time",
+    "author": "Robert Jordan",
+    "year_of_publication": 1990,
+    "genre": "Fantasy"
+  },
+  {
+    "title": "Jujutsu Kaisen",
+    "author": "Gege Akutami",
+    "year_of_publication": 2018,
+    "genre": "Manga"
+  },
+  {
+    "title": "Attack on Titan",
+    "author": "Hajime Isayama",
+    "year_of_publication": 2009,
+    "genre": "Manga"
+  },
+  {
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "year_of_publication": 1954,
+    "genre": "Fantasy"
+  },
+  {
+    "title": "Neon Genesis Evangelion",
+    "author": "Yoshiyuki Sadamoto",
+    "year_of_publication": 1995,
+    "genre": "Science Fiction"
+  },
+  {
+    "title": "Berserk",
+    "author": "Kentaro Miura",
+    "year_of_publication": 1990,
+    "genre": "Dark Fantasy"
+  }]
+}
