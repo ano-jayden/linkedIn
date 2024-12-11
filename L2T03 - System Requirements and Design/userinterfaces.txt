@@ -1,0 +1,4 @@
+.) This site is an example of a bad user interface. This is because the communication on the site does not put the user in a calm state. The different categories to pick from make the user feel overwhelmed upon entering the site. There is no use of color or texture; everything is written the same using minimal colors and fonts.
+
+.) This site is a good example of a user interface. They keep the design simple, with nothing added just to fill space. They use common UI elements that make the user feel familiar with the site, even though it’s their first time seeing and interacting with it. The user does not have to struggle with finding new ways to navigate the site.
+

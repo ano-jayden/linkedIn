@@ -1,0 +1,12 @@
+A protocol is a set of guidelines that tells us how to approach a certain task and the measures we must take to deal with the particular task. These guidelines are agreed upon and decided beforehand.
+
+It is built on the TCP/IP protocol, where each request is stored in an IP packet, and each response is also inside an IP packet. However, when the data is too large, it is stored in multiple packets.
+
+The status code will be in the 200 class.
+
+Every request our server receives is independent of each other, meaning the server does not keep track of requests before or after.
+
+image/jpeg and text/javascript.
+
+HTTP 403.
+

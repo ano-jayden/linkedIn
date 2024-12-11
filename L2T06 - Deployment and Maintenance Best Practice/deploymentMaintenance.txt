@@ -1,0 +1,23 @@
+Direct Deployment:
+Pros: The new system will be operational from the start.
+Cons: The old system needs to be turned off, which could cost the business money, especially if the new system cannot operate right away.
+Reason: Direct deployment is used when the old system cannot coexist with the new system during implementation.
+
+Parallel Deployment:
+Pros: There is no downtime needed to deploy the new system.
+Cons: Running both systems simultaneously can be costly.
+Reason: Parallel deployment is used when the business cannot afford to switch off the operating system.
+
+Phased Deployment:
+Pros: It requires no downtime to implement the new system.
+Cons: If one phase has an error, deploying the new system could be time-consuming, as developers may need to check the entire system for bugs.
+Reason: Phased deployment allows for proof-checking the new system as each phase is released.
+
+Direct Deployment choice:
+This is used when the two systems are too drastically different, making coexistence impossible.
+
+Phased Deployment choice:
+By using this technique, we can introduce different features (e.g., point-of-sale systems, stock records, and customer service systems) gradually, rather than all at once, reducing the risk of errors and crashes.
+
+Parallel Deployment choice:
+Parallel deployment would be my choice because, in case the new system does not work as intended, the old system serves as a backup. This ensures that a fire alarm system is always operational in the shopping malls.

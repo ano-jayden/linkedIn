@@ -1,0 +1,3 @@
+.) Ambiguity: It's unclear whether your credit card is charged when the ticket is issued or when your destination is confirmed. Additionally, it's not specified what type of identification is required (e.g., ID, driver's license, or another form of identification).
+
+.) Non-functional Requirements: The product must issue a ticket to the user and perform verification checks to confirm the transaction. The user expects to select a destination, pay for the ticket, and provide a form of ID. The end result must be a product that issues the user a ticket, charges their card, and requests identification.

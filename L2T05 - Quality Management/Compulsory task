@@ -1,0 +1,12 @@
+.) In a mobile game, usability would be a quality standard because we want our mobile game to be usable for all users.
+
+.) In a banking application, security would be an important quality standard because we want our banking documents and details to be secure and protected when we do online banking.
+
+.) In a database for a medical organization, understandability is an important quality standard because doctors or other medical staff should be able to understand the database so they can provide the best quality healthcare where needed.
+
+.) A high-quality software process understands what stakeholders deem to be most valuable and puts a focus on that. This approach leads to high-quality software products that align with stakeholder standards. However, problems can arise with the meaning of quality as different stakeholders may have different views on what quality entails.
+
+.) Inspections are effective at discovering errors because they allow developers to detect issues and resolve them quickly in the development cycle, saving the team time. Inspections also improve the overall consistency of the code. Errors like bugs, anomalies, or maintainability issues can all be discovered through inspections.
+
+.) Internal attributes are easier to assess because they are something that software engineers either create or understand well, like total lines of code or error message quantity. However, this is not the same for external attributes because they are more abstract and harder to quantify as different people perceive reliability or usability differently. External attributes often overlap with different internal attributes, so validating the relationship between these two can be tricky.
+
